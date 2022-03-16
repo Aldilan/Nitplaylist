@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Nitplaylist</title>
+</head>
+<body>
+    <div class="w-full h-[100vh] bg-cover bg-center container bg-[url('https://source.unsplash.com/1600x900?jdm')]">
+        <div class="bg-black/80 w-full h-[100vh]">
+            <div class="bg-black/80 w-full h-[100vh] fixed z-50 invisible" id="menuPageParent">
+                <div class="w-60 h-auto bg-[#222727] fixed top-[45%] -translate-y-1/2 left-1/2 -translate-x-1/2 opacity-0 rounded-md overflow-hidden transition" id="menuPage">
+                    <div class="py-3 mx-auto bg-[#656868]">
+                        <h1 class="font-bold text-xl text-center text-white">ABOUT</h1>
+                    </div>
+                    <section class="flex bg-[#222727] py-2 px-3 group hover:bg-[#FF4D29] transition">
+                        <div class="basis-[70%]">
+                            <ul>
+                                <li class="font-bold text-sm text-white">My Blog</li>
+                                <li class="text-xs font-thin text-[#949999] mt-1"><span class="group-hover:text-white transition">@dilannhr_</span></li>
+                            </ul>
+                        </div>
+                        <div class="basis-[30%] relative">
+                            <span class="w-auto h-auto absolute bottom-0 right-0"><a class="text-xs text-white hover:underline invisible group-hover:visible transition" href="">Visit..</a></span>
+                        </div>
+                    </section>
+                    <section class="flex bg-[#222727] py-2 px-3 group hover:bg-gradient-to-tr hover:from-yellow-400 hover:via-red-500 hover:to-violet-600 transition">
+                        <div class="basis-[70%]">
+                            <ul>
+                                <li class="font-bold text-sm text-white">Instagram</li>
+                                <li class="text-xs font-thin text-[#949999] mt-1"><span class="group-hover:text-white transition">@dilannhr_</span></li>
+                            </ul>
+                        </div>
+                        <div class="basis-[30%] relative">
+                            <span class="w-auto h-auto absolute bottom-0 right-0"><a class="text-xs text-white hover:underline invisible group-hover:visible transition" href="">Visit..</a></span>
+                        </div>
+                    </section>
+                    <section class="flex bg-[#222727] py-2 px-3 group hover:bg-[#4267B2] transition">
+                        <div class="basis-[70%]">
+                            <ul>
+                                <li class="font-bold text-sm text-white">Facebook</li>
+                                <li class="text-xs font-thin text-[#949999] mt-1"><span class="group-hover:text-white transition">@dilannhr_</span></li>
+                            </ul>
+                        </div>
+                        <div class="basis-[30%] relative">
+                            <span class="w-auto h-auto absolute bottom-0 right-0"><a class="text-xs text-white hover:underline invisible group-hover:visible transition" href="">Visit..</a></span>
+                        </div>
+                    </section>
+                    <section class="flex bg-[#222727] py-2 px-3 group hover:bg-[#333] transition">
+                        <div class="basis-[70%]">
+                            <ul>
+                                <li class="font-bold text-sm text-white">GitHub</li>
+                                <li class="text-xs font-thin text-[#949999] mt-1"><span class="group-hover:text-white transition">@dilannhr_</span></li>
+                            </ul>
+                        </div>
+                        <div class="basis-[30%] relative">
+                            <span class="w-auto h-auto absolute bottom-0 right-0"><a class="text-xs text-white hover:underline invisible group-hover:visible transition" href="">Visit..</a></span>
+                        </div>
+                    </section>
+                    <section class="w-full h-auto text-center mx-auto py-2">
+                        <span class="text-xs font-thin text-[#949999] hover:text-[#1DB954] transition cursor-pointer" id="closeMenuButton">Close</span>
+                    </section>
+                </div>
+            </div>
+            <div class="absolute right-4 top-[5%]">
+                <img class="w-7 h-7 brightness-0 invert cursor-pointer hover:invert-0 hover:brightness-100 transition" src="img/logo.png" alt="about" id="showMenuButton">
+            </div>
+            <iframe class="w-4/5 absolute top-[45%] -translate-y-1/2 left-1/2 -translate-x-1/2 block m-auto" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/75Ktpt8TNrjVf1gpTpT5Ka?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            <footer class="w-full h-auto absolute bottom-2">
+                <ul class="flex justify-center font-bold text-[#656868] text-sm" id="timeNowPage">
+                    <li>Hour</li>
+                    <li>:</li>
+                    <li>Minute</li>
+                    <li class="ml-1">Meridiem</li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
